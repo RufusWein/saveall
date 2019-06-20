@@ -6,7 +6,7 @@
     "engines": {
         "vscode": "^1.35.0"
     },
-    "icon": "icons/saveall.png",
+    "icon": "icons/logo.png",
     "bugs": {
         "url": "https://github.com/RufusWein/saveall/issues",
         "email": "rgpedroa@gmail.com"
