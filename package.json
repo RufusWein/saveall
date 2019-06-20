@@ -6,6 +6,16 @@
     "engines": {
         "vscode": "^1.35.0"
     },
+    "icon": "icons/saveall.png",
+    "bugs": {
+        "url": "https://github.com/RufusWein/saveall/issues",
+        "email": "rgpedroa@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RufusWein/saveall.git"
+    },
+    "homepage": "https://github.com/RufusWein/saveall",
     "categories": [
         "Other"
     ],
