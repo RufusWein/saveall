@@ -2,7 +2,7 @@
     "name": "saveall",
     "displayName": "Save All",
     "description": "A f**** icon to do \"Save All\", your welcome!",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.35.0"
     },
