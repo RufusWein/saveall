@@ -1,8 +1,9 @@
 {
     "name": "saveall",
+    "publisher": "rufuswein",
     "displayName": "Save All",
     "description": "A f**** icon to do \"Save All\", your welcome!",
-    "version": "1.0.0",
+    "version": "0.0.4",
     "engines": {
         "vscode": "^1.35.0"
     },
@@ -29,21 +30,17 @@
     ],
     "main": "./out/extension.js",
     "contributes": {
-        "commands": [
-            {
-                "command": "extension.saveall",
-                "title": "Save All",
-                "icon": "icons/saveall.png"
-            }
-        ],
+        "commands": [{
+            "command": "extension.saveall",
+            "title": "Save All",
+            "icon": "icons/saveall.png"
+        }],
         "menus": {
-            "editor/title": [
-                {
-                    "command": "extension.saveall",
-                    "when": "explorerViewletVisible",
-                    "group": "navigation"
-                }
-            ]
+            "editor/title": [{
+                "command": "extension.saveall",
+                "when": "explorerViewletVisible",
+                "group": "navigation"
+            }]
         }
     },
     "scripts": {
